@@ -7,6 +7,7 @@ Contains all tier services (daemons, admin tools) for local development. What it
 * PhpMyAdmin (port `8080` by default)
 * *todo* : health checker
 * *todo* : api gate (http.s + ws.s) + editor
+* *todo* : Jupyter
 
 These ports will be open by default. Their values can be changed by editing `docker-compose.yml` file. If you do this,
 you will have to update `.env` values in project services (other repositories).
