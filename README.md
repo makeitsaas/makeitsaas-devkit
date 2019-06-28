@@ -3,8 +3,10 @@
 Contains all tier services (daemons, admin tools) for local development. What it does :
 
 * Redis server (port `6379` by default)
-* MyQL server (port `3306` by default)
+* MySQL server (port `3306` by default)
+* Mongo server (port `27017` by default)
 * PhpMyAdmin (port `8080` by default)
+* Mongo Express (port `8081` by default)
 * *todo* : health checker
 * *todo* : api gate (http.s + ws.s) + editor
 * *todo* : Jupyter
